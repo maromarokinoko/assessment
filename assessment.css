@@ -1,0 +1,40 @@
+* { box-sizing: border-box; }
+
+body {
+  background-color: coral;
+  color: beige;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+
+.form-row input {
+  flex: 1;
+  padding: 0 16px ;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: black;
+  line-height: 1;
+}
+
+.form-row button {
+  flex: 1;
+  padding: 0;
+  background-color: chocolate;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
